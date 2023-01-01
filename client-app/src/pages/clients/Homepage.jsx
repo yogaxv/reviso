@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 import OverallProgress from '../../components/progress/OverallProgress';
 import SubProgress from '../../components/progress/SubProgress';
 
-function Home() {
+function Homepage() {
   let loading = false;
 
   if (loading) {
@@ -51,4 +51,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Homepage;

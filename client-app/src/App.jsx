@@ -1,7 +1,7 @@
 // import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/clients/Home'
-import Todo from './pages/clients/Todo'
+import Home from './pages/clients/Homepage'
+import Todo from './pages/clients/Todopage'
 
 function App() {
 
