@@ -16,7 +16,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 const OverallProgress = ({ progress = 65 }) => {
   return (
-    <Box sx={{ minWidth: 200, marginBottom: 2 }}>
+    <Box sx={{ minWidth: 200 }}>
       <Card variant='outlined'>
         <CardContent>
           <Typography sx={{ fontSize: 14, fontWeight: 'bold' }} color='text.secondary'>

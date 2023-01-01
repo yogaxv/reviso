@@ -25,7 +25,7 @@ const bull = (
 
 const SubProgress = ({ title = 'Blok A', progress = 65 }) => {
   return (
-    <Box sx={{ minWidth: 200, marginBottom: 2 }}>
+    <Box sx={{ minWidth: 200 }}>
       <Card variant='outlined'>
         <CardContent>
           <Box sx={{  display: 'flex', justifyContent: 'space-between', marginBottom: 2  }}>
