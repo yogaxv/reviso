@@ -22,7 +22,7 @@ export default createTheme({
       main: '#ed4956'
     },
     background: {
-      default: '#EFF5F5'
+      default: '#e7ebf0'
     }
   },
   overrides: {
