@@ -68,7 +68,7 @@ export const useExploreGridStyles = makeStyles((theme) => ({
 }));
 
 /* Login page: /pages/login.js */
-export const useLoginPageStyles = makeStyles({
+export const useLoginPageStyles = makeStyles(() => ({
   signUpCard: {
     maxWidth: 348,
     padding: '16px 40px',
@@ -90,13 +90,16 @@ export const useLoginPageStyles = makeStyles({
   cardHeader: {
     backgroundImage: `url(${IconSheet})`,
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: '-98px 0',
+    backgroundSize: 'contain',
     height: 51,
     width: 175,
-    margin: '22px auto 12px',
+    margin: '22px auto 12px'
   },
   textField: {
     marginBottom: 6,
+    ['& fieldset']: {
+      borderRadius: '30px',
+    },
   },
   button: {
     margin: '8px 0px',
@@ -121,7 +124,7 @@ export const useLoginPageStyles = makeStyles({
     width: 16,
     marginRight: 8,
   },
-});
+}));
 
 // SignUp page: /pages/signup.js
 export const useSignUpPageStyles = makeStyles({

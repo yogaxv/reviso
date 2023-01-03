@@ -13,6 +13,7 @@ export default createTheme({
   },
   palette: {
     primary: {
+      light: '#87C0F6',
       main: '#3897f0'
     },
     secondary: {
@@ -61,7 +62,7 @@ export default createTheme({
       },
       contained: {
         boxShadow: 'unset'
-      }
+      },
     },
     MuiCard: {
       root: {
